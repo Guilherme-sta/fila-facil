@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light"><title>Fila Fácil · Recepção</title>
+  <link rel="icon" href="data:,"><link rel="stylesheet" href="src/estilo.css">
+  <script src="src/fila.js" defer></script><script src="src/app.js" defer></script>
+</head>
+<body>
+  <header class="topo"><a class="marca" href="./"><span class="simbolo" aria-hidden="true">F</span> Fila<span>Fácil</span></a><span class="ambiente"><i></i> Recepção · demonstração</span></header>
+  <main>
+    <div class="introducao"><div><p class="sobretitulo">UM ATENDIMENTO DE CADA VEZ</p><h1>Organize a espera.<br>Cuide do atendimento.</h1></div><p>Retire uma senha e acompanhe a chamada.<br>O atendimento segue a ordem de chegada.</p></div>
+    <div class="grade">
+      <section class="painel" aria-labelledby="titulo-painel">
+        <div class="linha"><h2 id="titulo-painel">Em atendimento</h2><span class="selo">Guichê 01</span></div>
+        <div class="senha-atual" id="senha-atual" aria-live="polite">—</div>
+        <p class="legenda" id="legenda-atual">Aguardando a primeira chamada</p>
+        <button class="botao chamar" id="chamar" type="button">Chamar próxima <span aria-hidden="true">→</span></button>
+        <p class="nota-painel">A senha chamada aparece neste painel.</p>
+      </section>
+      <section class="emissao" aria-labelledby="titulo-emissao">
+        <span class="icone-ticket" aria-hidden="true">＋</span><p class="sobretitulo">CHEGOU AGORA?</p><h2 id="titulo-emissao">Seu lugar na fila, <br>sem complicação.</h2>
+        <p>Retire uma senha para entrar na espera.</p>
+        <button class="botao emitir" id="emitir" type="button">Retirar senha</button>
+        <div class="comprovante" id="comprovante" hidden><span>Sua senha</span><strong id="ultima-emitida"></strong><small>Acompanhe o painel de chamadas.</small></div>
+      </section>
+      <section class="espera" aria-labelledby="titulo-espera">
+        <div class="linha"><h2 id="titulo-espera">Na espera <span id="quantidade" class="contador">0</span></h2><span class="discreto">Ordem de chegada</span></div>
+        <p id="fila-vazia" class="vazio">Fila vazia. A próxima senha pode ser a sua.</p><ol id="lista-espera" aria-label="Senhas aguardando"></ol>
+      </section>
+      <aside class="resumo"><p class="sobretitulo">NESTA SESSÃO</p><strong id="total-chamadas">0</strong><p>senhas chamadas</p><button id="reiniciar" class="link-botao" type="button">Reiniciar demonstração</button></aside>
+    </div>
+    <p id="mensagem" role="status" aria-live="polite" class="mensagem">Pronto para começar.</p>
+    <footer><span>Fila Fácil · Lab 02 · TEC.1053</span><span>Dados somente nesta aba. Recarregar reinicia a demonstração.</span></footer>
+  </main>
+  <dialog id="confirmacao" aria-labelledby="titulo-confirmacao" aria-describedby="texto-confirmacao"><h2 id="titulo-confirmacao">Reiniciar a fila?</h2><p id="texto-confirmacao">As senhas desta demonstração serão apagadas e a numeração voltará a N001.</p><form method="dialog"><button class="botao cancelar" value="cancelar" autofocus>Cancelar</button><button class="botao confirmar" value="confirmar">Sim, reiniciar</button></form></dialog>
+</body></html>
