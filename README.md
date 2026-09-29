@@ -45,7 +45,3 @@ tests/index.html    # suíte de testes
 - Sem backend, sincronização entre abas, login ou banco de dados.
 
 ---
-
-## Estado da entrega
-
-**Concluído localmente e publicado — aguardando revisão cruzada**
