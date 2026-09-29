@@ -1,13 +1,51 @@
-# Fila Fácil - entrega da dupla
+# 🎫 Fila Fácil
 
-Objetivo: protótipo didático de emissão e chamada de senhas em ordem FIFO.
-Origem: Lab 02 da disciplina TEC.1053, github.com/aislanifpi/tec1053.
-Integrantes: Guilherme Alves (Guilherme-sta) e Matheus Ylan (matheusydev)
-Repositório: https://github.com/Guilherme-sta/fila-facil
-Aplicação: https://guilherme-sta.github.io/fila-facil/
-Testes: https://guilherme-sta.github.io/fila-facil/tests/index.html
-Tarefa e evidências: [URL da issue]
-Como executar localmente: abrir index.html e tests/index.html.
-Limites: fila por aba, estado em memória, recarga apaga a sessão,
-sem backend, persistência, sincronização ou dados reais.
-Estado: [concluído ou parcial, com pendências]
+Protótipo didático de emissão e chamada de senhas em ordem FIFO (fila, sem prioridade).
+
+> Lab 02 da disciplina **TEC.1053 — Tópicos Especiais em Programação** (ADS IV, IFPI).
+> Origem: [github.com/aislanifpi/tec1053](https://github.com/aislanifpi/tec1053)
+
+---
+
+## Integrantes
+
+| Nome | GitHub |
+|---|---|
+| Guilherme Alves | [@Guilherme-sta](https://github.com/Guilherme-sta) |
+| Matheus Ylan | [@matheusydev](https://github.com/matheusydev) |
+
+---
+
+## Links
+
+| Recurso | URL |
+|---|---|
+| Repositório | https://github.com/Guilherme-sta/fila-facil |
+| Aplicação (Pages) | https://guilherme-sta.github.io/fila-facil/ |
+| Suíte de testes | https://guilherme-sta.github.io/fila-facil/tests/index.html |
+| Issue / evidências | https://github.com/Guilherme-sta/fila-facil/issues/1 |
+
+---
+
+## Como executar localmente
+
+Basta abrir os arquivos no navegador — não há build nem dependências:
+
+```bash
+index.html          # aplicação
+tests/index.html    # suíte de testes
+```
+
+---
+
+## Limites do protótipo
+
+- Uma fila por aba; recarregar a página inicia uma sessão vazia.
+- Estado mantido apenas em memória (sem persistência).
+- Sem backend, sincronização entre abas, login ou banco de dados.
+
+---
+
+## Estado da entrega
+
+**Concluído localmente e publicado — aguardando revisão cruzada**
