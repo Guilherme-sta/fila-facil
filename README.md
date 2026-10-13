@@ -23,7 +23,7 @@ Protótipo didático de emissão e chamada de senhas em ordem FIFO (fila, sem pr
 | Repositório | https://github.com/Guilherme-sta/fila-facil |
 | Aplicação (Pages) | https://guilherme-sta.github.io/fila-facil/ |
 | Suíte de testes | https://guilherme-sta.github.io/fila-facil/tests/index.html |
-| Issue / evidências | https://github.com/Guilherme-sta/fila-facil/issues/1 |
+| Issue / evidências | https://github.com/Guilherme-sta/fila-facil/issues/1, https://github.com/Guilherme-sta/fila-facil/issues/3 |
 
 ---
 
